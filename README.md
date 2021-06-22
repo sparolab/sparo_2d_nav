@@ -44,7 +44,7 @@ The original codes are motivated by OMOR1-navigation [package](https://github.co
     roslaunch sparo_2d_navigation sparo_2d_navigation_gazebo.launch # Launch navigation package with pre-built map (saved in map folder)
     ~~~
 
-    ![savedmap](./images/navigation.png)
+    ![savedmap](./images/navigation.gif)
 
 
 
