@@ -1,0 +1,10 @@
+<launch>
+  <!-- launching state publishers -->
+  <!-- <include file="$(find omo_r1_bringup)/launch/omo_r1_remote.launch"/> -->
+
+  <!-- launching gmapping node and parameters -->
+  <include file="$(find sparo_2d_slam)/launch/sparo_2d_gmapping.launch"/>
+  
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+    args="-d $(find sparo_2d_slam)/rviz/sparo_2d_gmapping.rviz" />
+</launch>

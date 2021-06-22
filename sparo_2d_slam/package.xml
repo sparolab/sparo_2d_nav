@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>sparo_2d_slam</name>
+  <version>0.0.1</version>
+  <description>
+    Mapping package for SPARO robots
+  </description>
+  <license>Apache 2.0</license>
+  <author email="bishopearson@gmail.com">Bishop Pearson</author>
+  <maintainer email="bishopearson@gmail.com">Bishop Pearson</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <exec_depend>gmapping</exec_depend>
+</package>
